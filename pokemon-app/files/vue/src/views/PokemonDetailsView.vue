@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="content-box">
       <h1>{{ pokemon.name }}</h1>
   
       <img :src="pokemon.sprites.front_default" alt="Front Image">
@@ -35,3 +35,22 @@
     }
   }
   </script>
+
+  <style scoped>
+    img {
+      width: 100%;
+
+
+    }
+
+    section {
+      display: flex;
+      gap: 5rem;
+    }
+
+
+
+    
+
+
+  </style>
